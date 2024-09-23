@@ -1,0 +1,13 @@
+.container {
+  margin-top: 20px;
+}
+
+.mainImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.thumbnail {
+  border-radius: 4px;
+}

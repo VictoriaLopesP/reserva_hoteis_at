@@ -1,0 +1,54 @@
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; 
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-md-4 {
+  margin-bottom: 20px;
+}
+
+.card-body .btn {
+  margin-right: 5px;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.btn-outline-primary {
+  background-color: rgba(255, 255, 255, 0.8); 
+  color: #007bff; 
+  border: 1px solid #007bff; 
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff; 
+  color: white; 
+}
+
+.btn-success {
+  background-color: #28a745; 
+  color: #fff; 
+}
